@@ -1,0 +1,79 @@
+.modal {
+  display: flex;
+  overflow-y: auto;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 50;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 1rem);
+  max-height: 100%;
+  background-color: rgba(252, 250, 250, 0.4);
+}
+
+.hidden {
+  display: none;
+}
+
+.modal-container {
+  position: relative;
+  padding: 1rem;
+  width: 100%;
+  max-width: 32rem;
+  max-height: 100%;
+}
+
+.modal-content {
+  position: relative;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #eaeaeb;
+  padding: 2rem 0rem;
+}
+
+.addExpenseForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.addExpenseForm input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin: 0 0.2rem;
+}
+
+.dateInput {
+  width: 12rem;
+}
+
+.addExpenseForm button {
+  background-color: #f4d136;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0 0.4rem;
+}
+
+#cancel {
+  background-color: #9b9b9a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0 0.4rem;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: start;
+}

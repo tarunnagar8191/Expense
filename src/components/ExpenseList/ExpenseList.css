@@ -1,0 +1,104 @@
+.expenseList {
+  /* background-color: #9b9b9b; */
+  border-radius: 15px;
+  padding: 1rem;
+  overflow-y: scroll;
+  height: 18rem;
+}
+
+.expenseList ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expenseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expenseTitle {
+  flex: 2;
+  font-weight: bold;
+  color: #333;
+}
+
+.expenseDate {
+  flex: 2;
+  color: #7c7b7b;
+  font-weight: lighter;
+  font-size: smaller;
+  margin-top: 4px;
+}
+
+.expenseAmount {
+  flex: 1;
+  color: #ff5722;
+  text-align: right;
+}
+
+.expenseCategory {
+  flex: 1;
+  color: #666;
+  text-align: right;
+  padding: 0 0.6rem;
+  font-size: small;
+}
+
+.expenseActions {
+  flex: 0.5;
+  display: flex;
+  justify-content: space-around;
+}
+
+.editButton,
+.deleteButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.editButton:hover {
+  color: #f4d136;
+  background-color: white;
+  border: 1px solid rgb(160, 159, 159);
+}
+
+.deleteButton:hover {
+  color: #f44336;
+  background-color: white;
+  border: 1px solid rgb(160, 159, 159);
+}
+
+.iconBoxEdit {
+  border-radius: 50%;
+  padding: 0.2rem 0.4rem;
+  margin-right: 0.2rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #f4d136;
+}
+
+.iconBoxDelete {
+  background-color: #f44336;
+  color: #ffffff;
+  border-radius: 50%;
+  padding: 0.2rem 0.4rem;
+  margin-right: 0.2rem;
+  text-align: center;
+}

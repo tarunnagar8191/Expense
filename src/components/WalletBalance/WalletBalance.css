@@ -1,0 +1,26 @@
+.balance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.walletMoney {
+  color: yellowgreen;
+}
+
+p {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.addName {
+  width: 50%;
+  color: white;
+  background-color: yellowgreen;
+  padding: 2px;
+  border-radius: 15px;
+  border: transparent;
+  margin-top: 1rem;
+}

@@ -1,0 +1,73 @@
+.App {
+  min-height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  background-color: #3b3b3b;
+  padding: 1vh 1vw;
+}
+
+.dataCard {
+  border-radius: 0.5em;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1em;
+  flex-wrap: wrap;
+}
+
+.expense {
+  width: 100%;
+  min-height: 20rem;
+  background-color: #626262;
+  display: flex;
+  justify-content: space-around;
+  gap: 1vw;
+  padding: 5rem;
+}
+.expense > div {
+  width: 30%;
+  background-color: #9b9b9b;
+  height: 10rem;
+  border-radius: 15px;
+}
+
+.recent {
+  width: 100%;
+  min-height: 20rem;
+  background-color: white;
+}
+
+.top {
+  width: 100%;
+  height: 20rem;
+  background-color: #fff;
+}
+
+.first {
+  margin-bottom: 1rem;
+}
+
+.second {
+  display: flex;
+  gap: 2vw;
+}
+
+.second > div:first-child {
+  width: 80%;
+}
+
+.second > div:last-child {
+  width: 80%;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 1rem;
+  margin-left: 1vw;
+}
+
+.expense > .chart {
+  background-color: transparent;
+}
